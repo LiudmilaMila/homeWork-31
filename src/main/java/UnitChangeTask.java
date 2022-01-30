@@ -13,7 +13,7 @@ public class UnitChangeTask {
         remainder = remainder % 60;
         long second = remainder;
 
-        String result = "Your value consists of " + year + " years " +
+        String result = year + " years " +
                 day + " days " + hour + " hours " + minute + " minutes " +
                 second + " seconds ";
         return result;
