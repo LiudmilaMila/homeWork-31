@@ -12,10 +12,10 @@ public class UnitChangeTask {
         long minute = remainder / 60;
         remainder = remainder % 60;
         long second = remainder;
+        
+        String result = year +" years " + day + " days " + hour + " hours "  +
+                                 minute + " minutes " + second + " seconds " ;
 
-        String result = year + " years " +
-                day + " days " + hour + " hours " + minute + " minutes " +
-                second + " seconds ";
         return result;
     }
 }
